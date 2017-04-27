@@ -23,15 +23,13 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "source": {
-    "http": "http://adsdk.yumimobi.com/iOS/YumiVideoAdsSDK/2.1.1.zip"
+    "http": "http://adsdk.yumimobi.com/iOS/YumiVideoAdsSDK/2.1.1_32.tar.bz2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "ios": {
-    "vendored_frameworks": "ios/YumiVideoAdsSDK.embeddedframework/YumiVideoAdsSDK.framework"
+    "vendored_frameworks": "YumiVideoAdsSDK.framework"
   },
-  "resources": [
-    "ios/YumiVideoAdsSDK.embeddedframework/YumiVideoAdsSDK.framework/Versions/A/Resources/YumiVideoAdsSDK.bundle"
-  ]
+  "resources": "Resources/YumiVideoAdsSDK.bundle"
 }

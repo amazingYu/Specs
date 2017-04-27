@@ -24,15 +24,13 @@
     "OTHER_LDFLAGS": "-ObjC"
   },
   "source": {
-    "http": "http://adsdk.yumimobi.com/iOS/YumiAdsSDK/2.0.5.zip"
+    "http": "http://adsdk.yumimobi.com/iOS/YumiAdsSDK/2.0.5_115.tar.bz2"
   },
   "platforms": {
     "ios": "7.0"
   },
   "ios": {
-    "vendored_frameworks": "ios/YumiAdsSDK.embeddedframework/YumiAdsSDK.framework"
+    "vendored_frameworks": "YumiAdsSDK.framework"
   },
-  "resources": [
-    "ios/YumiAdsSDK.embeddedframework/YumiAdsSDK.framework/Versions/A/Resources/YumiAdsSDK.bundle"
-  ]
+  "resources": "Resources/YumiAdsSDK.bundle"
 }

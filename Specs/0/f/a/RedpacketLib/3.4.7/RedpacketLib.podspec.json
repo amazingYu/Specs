@@ -28,10 +28,13 @@
   "resources": [
     "RedpacketStaticLib/resources/*.bundle"
   ],
-  "frameworks": "AudioToolbox",
+  "frameworks": [
+    "AudioToolbox",
+    "CFNetwork"
+  ],
   "documentation_url": "https://new.yunzhanghu.com/",
   "dependencies": {
-    "RPAlipayLib": [
+    "RedPacketAlipay": [
 
     ]
   }

@@ -28,7 +28,10 @@
   "resources": [
     "Redpacket/resources/*.bundle"
   ],
-  "frameworks": "AudioToolbox",
+  "frameworks": [
+    "AudioToolbox",
+    "CFNetwork"
+  ],
   "libraries": "z",
   "dependencies": {
     "RedPacketAlipay": [
