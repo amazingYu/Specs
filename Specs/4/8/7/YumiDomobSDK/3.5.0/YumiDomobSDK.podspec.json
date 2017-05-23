@@ -12,13 +12,13 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "http://adsdk.yumimobi.com/iOS/Domob_SDK_v3.5.0.zip"
+    "http": "http://adsdk.yumimobi.com/iOS/ThirdPartySDK/Domob-3.5.0.tar.bz2"
   },
-  "source_files": "Domob_SDK_v3.5.0/lib/Headers/*",
-  "resources": "Domob_SDK_v3.5.0/lib/IndependentVideoBundle.bundle",
-  "public_header_files": "Domob_SDK_v3.5.0/lib/Headers/*.{h}",
+  "source_files": "Headers/*",
+  "resources": "IndependentVideoBundle.bundle",
+  "public_header_files": "Headers/*.{h}",
   "ios": {
-    "vendored_libraries": "Domob_SDK_v3.5.0/lib/libIndependentVideoSDK.a"
+    "vendored_libraries": "libIndependentVideoSDK.a"
   },
   "frameworks": [
     "Foundation",

@@ -1,13 +1,10 @@
 {
   "name": "CGCellContentViewManager",
   "version": "1.0",
-  "summary": "Solve the problem that the subview's backgroundColor in the cell's contentView changed unexpected while you are clicking the cell.",
+  "summary": "Manage cells' chaning backgroundColor behavior when being clicked.",
   "description": "An elegant way to solve the problem while we're clicking a UITableViewCell, the subviews in the cell's contentView's backgroundColor changed unexpected.",
   "homepage": "https://github.com/CoderGin/CGCellContentViewManager",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
   "authors": {
     "Coder Gin": "https://github.com/CoderGin"
   },
