@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of AduxSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://NSSakly@bitbucket.org/NSSakly/aduxsdk.git",
+  "homepage": "https://bitbucket.org/NSSakly/aduxsdk",
   "license": {
-    "type": "MIT",
+    "type": "Adux",
     "file": "LICENSE"
   },
   "authors": {
-    "NSSakly": "nejm.sakly@gmail.com"
+    "Adux": "nejm.sk@gmail.com"
   },
   "source": {
-    "git": "https://NSSakly@bitbucket.org/NSSakly/aduxsdk.git",
+    "git": "https://bitbucket.org/NSSakly/aduxsdk",
     "branch": "master",
     "tag": "0.1.0"
   },
@@ -25,6 +25,5 @@
   ],
   "ios": {
     "vendored_frameworks": "AduxSDK/AduxSDK.framework"
-  },
-  "deprecated": true
+  }
 }

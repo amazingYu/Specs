@@ -23,6 +23,12 @@
     "Source/*.swift"
   ],
   "requires_arc": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
   "dependencies": {
     "RealmSwift": [
 
@@ -65,7 +71,16 @@
     ],
     "RSKGrowingTextView": [
 
+    ],
+    "RxCocoa": [
+
+    ],
+    "KissXML": [
+
+    ],
+    "Toaster": [
+
     ]
   },
-  "pushed_with_swift_version": "3.0"
+  "pushed_with_swift_version": "3.1"
 }

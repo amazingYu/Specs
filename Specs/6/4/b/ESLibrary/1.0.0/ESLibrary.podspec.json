@@ -11,7 +11,7 @@
     "信软科技": "eruntechsoftware@126.com"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source": {
     "git": "https://github.com/eruntechsoftware/ESLibrary.git",
@@ -28,6 +28,12 @@
     ],
     "Toast": [
       "~> 3.0"
+    ],
+    "ReactiveObjC": [
+      "~> 3.0.0"
+    ],
+    "SDWebImage": [
+      "~>3.8"
     ]
   },
   "source_files": "ESLibrary/**/*.{h,m}",
