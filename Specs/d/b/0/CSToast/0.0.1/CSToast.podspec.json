@@ -9,16 +9,15 @@
   "authors": {
     "Joslyn": "cs_joslyn@foxmail.com"
   },
-  "homepage": "https://github.com/JoslynWu/CSToast-OC",
+  "homepage": "https://github.com/JoslynWu/CSToast",
   "social_media_url": "http://www.jianshu.com/u/fb676e32e2e9",
   "platforms": {
     "ios": "8.0"
   },
   "source": {
-    "git": "https://github.com/JoslynWu/CSToast-OC.git",
+    "git": "https://github.com/JoslynWu/CSToast.git",
     "tag": "0.0.1"
   },
-  "requires_arc": true,
-  "source_files": "Sources/*.{h,m}",
-  "public_header_files": "Sources/*.{h}"
+  "source_files": "Sources/*.swift",
+  "pushed_with_swift_version": "3.0"
 }

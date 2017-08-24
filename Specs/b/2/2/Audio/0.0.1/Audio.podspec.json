@@ -19,7 +19,9 @@
   "frameworks": [
     "UIKit",
     "QuartzCore",
-    "Foundation"
+    "Foundation",
+    "AVFoundation",
+    "AudioToolbox"
   ],
   "requires_arc": true
 }

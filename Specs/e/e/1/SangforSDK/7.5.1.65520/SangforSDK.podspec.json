@@ -16,13 +16,12 @@
   },
   "source": {
     "git": "https://github.com/ludaye123/SangforSDK.git",
-    "commit": "6b56ecf6aeb32faf9c32f5dae8602796e1ee807c"
+    "commit": "b60a9ecabf883bb5d3b7442f64f8ab669e86bd33"
   },
   "source_files": "Classes/**/*.{h,m}",
-  "public_header_files": "Classes/**/*.h",
-  "preserve_paths": "libSangforSdk.a",
-  "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"/Users/sangfor/Documents/LS-Sangfor/Github/SangforSDK\""
+  "exclude_files": "Classes/Exclude",
+  "ios": {
+    "vendored_libraries": "*.a"
   },
   "frameworks": [
     "NetworkExtension",
@@ -35,7 +34,7 @@
     "icucore",
     "c++",
     "xml2.2",
-    "sqlite3",
-    "SangforSdk"
-  ]
+    "sqlite3"
+  ],
+  "requires_arc": true
 }

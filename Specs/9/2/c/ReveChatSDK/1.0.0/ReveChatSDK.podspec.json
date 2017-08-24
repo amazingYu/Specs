@@ -12,7 +12,7 @@
     "file": "LICENSE"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source": {
     "http": "http://191.96.12.46:8080/ReveChatSDK.zip"

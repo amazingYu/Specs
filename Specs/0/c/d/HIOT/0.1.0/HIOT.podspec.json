@@ -1,8 +1,8 @@
 {
   "name": "HIOT",
   "version": "0.1.0",
-  "summary": "HIOT.封装",
-  "description": "不能写的太详细，知道是怎么回事就好",
+  "summary": "设备组件封装",
+  "description": "设备组件功能性封装",
   "homepage": "https://github.com/wowbby/HIOT",
   "license": {
     "type": "MIT",
@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HIOT/Classes/**/*",
-  "dependencies": {
-    "HIOTSDK": [
-
-    ]
-  }
+  "source_files": "HIOT/Classes/**/*"
 }
